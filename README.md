@@ -1,128 +1,255 @@
-# Sales Dashboard – Power BI  
-# Dashboard de Vendas – Power BI
-
----
+# Sales Dashboard
 
 ## English Version
 
-### Overview
+# Sales Dashboard
 
-This project consists of a Sales Dashboard developed in Power BI to support business analysis and strategic decision-making. The report integrates two main analytical views:
+## Overview
 
-- Sales to be Invoiced – Projections and pending backlog  
-- Invoiced Sales – Revenue effectively recognized  
+This project presents a Business Intelligence solution developed in Power BI to monitor sales performance, analyze invoicing pipelines, and support strategic commercial decision-making. The dashboard integrates pending invoicing projections with recognized revenue indicators, providing a comprehensive view of sales operations throughout the revenue cycle.
 
-### Objective
+The solution enables stakeholders to track commercial performance, identify revenue trends, monitor sales team effectiveness, and improve forecasting accuracy through data-driven insights.
 
-The main objectives of this project are:
+## Objectives
 
-- Analyze sales performance over time  
-- Compare revenue across quarters and years  
-- Monitor performance by sales representative and operation type  
-- Support data-driven decision-making  
+* Monitor sales performance over time.
+* Analyze pending invoicing pipelines and recognized revenue.
+* Compare revenue across different periods, quarters, and years.
+* Evaluate performance by sales representative and operation type.
+* Support commercial planning and strategic decision-making.
+* Improve visibility into sales processes through interactive analytics.
 
-### Report Structure
+## Business Context
 
-#### Sales to be Invoiced
+Commercial organizations require timely and accurate visibility into both realized revenue and future invoicing opportunities to optimize planning and resource allocation. Understanding the relationship between sales execution and invoicing performance is critical for forecasting results, identifying growth opportunities, and mitigating operational bottlenecks.
 
-This section presents:
+This project addresses these challenges by consolidating key commercial indicators into an integrated analytical environment, enabling proactive management of sales activities and supporting data-driven business decisions.
 
-- Pending invoicing amounts  
-- Totals by customer type  
-- Period-based projections  
+## Dashboard Structure & Analytical Views
 
-#### Invoiced Sales
+### 1. Sales to be Invoiced
 
-This section includes:
+An operational and tactical view designed to monitor pending revenue and support short-term forecasting activities.
 
-- Total invoiced revenue  
-- Distribution by region and sales representative  
-- Quarterly and segment analysis  
+#### Key Metrics
 
-### Visual Examples
+* Total amount pending invoicing.
+* Revenue projections by period.
+* Sales distribution by customer type.
+* Pending order backlog.
+* Pipeline visibility by commercial segment.
 
-#### Sales to be Invoiced  
-Example of the main visual in this section:  
-![Sales to be Invoiced](imagens/vendas-a-faturar.png)
+#### Features
 
-#### Invoiced Sales  
-Example of the main visual in this section:  
-![Invoiced Sales](imagens/vendas-faturadas.png)
+* Monitoring of invoicing opportunities.
+* Dynamic filtering by time periods and customer categories.
+* Support for short-term revenue forecasting.
+* Identification of invoicing bottlenecks.
 
-### Technical Approach
+### 2. Invoiced Sales Analysis
 
-- Data modeling for analytical purposes  
-- Use of dynamic filters and slicers  
-- DAX calculations (when applicable)  
-- Clear and business-oriented data visualization  
+A strategic view focused on evaluating recognized revenue and overall commercial performance.
 
-### Repository Structure
-Dashboard-Vendas/
-├── Dashboard-Vendas.pbix
+#### Key Metrics
+
+* Total invoiced revenue.
+* Revenue distribution by sales representative.
+* Revenue analysis by region.
+* Quarterly and annual performance comparisons.
+* Segment-level commercial performance.
+
+#### Features
+
+* Historical sales trend analysis.
+* Performance evaluation across sales teams.
+* Regional comparison of commercial results.
+* Support for strategic sales planning.
+
+## Technologies & Tools
+
+* **Power BI:** Development of interactive dashboards and business visualizations.
+* **DAX:** Creation of commercial KPIs, revenue measures, and Time Intelligence calculations.
+* **Power Query (M Language):** Data extraction, transformation, and standardization processes.
+* **Dimensional Modeling:** Structuring analytical models to improve scalability and reporting performance.
+* **Data Visualization Best Practices:** Development of business-oriented dashboards to facilitate executive decision-making.
+
+## Technical Challenges Overcome
+
+* **Revenue Pipeline Consolidation:**
+
+  * Integration of invoiced and pending sales perspectives into a unified analytical model.
+
+* **Time Intelligence Implementation:**
+
+  * Development of dynamic calculations to support period-over-period comparisons and trend analysis.
+
+* **Commercial Performance Modeling:**
+
+  * Creation of KPIs capable of evaluating sales performance across multiple business dimensions.
+
+* **Scalable Analytical Design:**
+
+  * Construction of an optimized data model to support detailed analyses without compromising dashboard responsiveness.
+
+## Key Insights
+
+* **Enhanced Revenue Visibility:**
+
+  * Improved understanding of both realized revenue and future invoicing opportunities.
+
+* **Commercial Performance Optimization:**
+
+  * Identification of high-performing sales representatives and strategic market segments.
+
+* **Improved Forecast Accuracy:**
+
+  * Increased visibility into pending invoicing pipelines to support revenue projections.
+
+* **Data-Driven Decision-Making:**
+
+  * Delivery of reliable commercial indicators to strengthen planning and execution strategies.
+
+## Repository Structure
+
+sales-dashboard/
+
+├── Sales-Dashboard.pbix
+
 ├── README.md
-└── imagens/
-├── vendas-a-faturar.png
-└── vendas-faturadas.png
 
-### Available Files
+└── images/
 
-The main Power BI file (.pbix) is available for technical review and study purposes.
+  ├── sales-to-be-invoiced.png
 
-### Author
-
-Yasmin de Oliveira  
-LinkedIn: https://www.linkedin.com/in/yasmin-oliveira-89bb74136
+  └── invoiced-sales.png
 
 ---
 
-## Versão em Português
+*This project is part of my portfolio in Business Intelligence and Commercial Analytics, demonstrating my ability to transform sales data into strategic insights that support revenue growth and data-driven decision-making.*
 
-### Visão Geral
+# Versão em Português
 
-Este projeto consiste em um Dashboard de Vendas desenvolvido no Power BI com o objetivo de apoiar análises de desempenho e decisões estratégicas. O relatório integra duas principais visões analíticas:
+# Sales Dashboard
 
-- Vendas a Faturar – Projeções e backlog pendente  
-- Vendas Faturadas – Receita efetivamente realizada  
+## Overview
 
-### Objetivo
+Este projeto apresenta uma solução de Business Intelligence desenvolvida em Power BI para monitorar a performance comercial, analisar o pipeline de faturamento e apoiar decisões estratégicas relacionadas à gestão de vendas. O dashboard integra indicadores de vendas a faturar e receitas já reconhecidas, proporcionando uma visão abrangente do ciclo comercial.
 
-Os principais objetivos deste projeto são:
+A solução permite acompanhar resultados, identificar tendências de receita, monitorar a efetividade das equipes comerciais e aumentar a previsibilidade do negócio por meio de insights orientados por dados.
 
-- Analisar o desempenho de vendas ao longo do tempo  
-- Comparar faturamento entre trimestres e anos  
-- Monitorar a performance por vendedor e tipo de operação  
-- Apoiar a tomada de decisão baseada em dados  
+## Objetivo
 
-### Estrutura do Relatório
+* Monitorar a performance comercial ao longo do tempo.
+* Analisar o pipeline de vendas a faturar e a receita realizada.
+* Comparar resultados entre períodos, trimestres e anos.
+* Avaliar o desempenho por vendedor e tipo de operação.
+* Apoiar o planejamento comercial e a tomada de decisão estratégica.
+* Ampliar a visibilidade dos processos de vendas por meio de análises interativas.
 
-#### Vendas a Faturar
+## Business Context
 
-Esta seção apresenta:
+Empresas orientadas a resultados precisam de visibilidade clara sobre receitas realizadas e oportunidades futuras de faturamento para otimizar o planejamento e direcionar esforços comerciais. Compreender a relação entre execução de vendas e faturamento é essencial para projetar resultados, identificar oportunidades de crescimento e reduzir gargalos operacionais.
 
-- Valores pendentes de faturamento  
-- Totais por tipo de cliente  
-- Projeções por período  
+Este projeto foi desenvolvido para consolidar os principais indicadores comerciais em um ambiente analítico integrado, permitindo uma gestão mais proativa das operações de vendas e fortalecendo decisões baseadas em dados.
 
-#### Vendas Faturadas
+## Dashboard Structure & Analytical Views
 
-Esta seção inclui:
+### 1. Vendas a Faturar
 
-- Total faturado  
-- Distribuição por região e vendedor  
-- Análise por trimestre e segmento  
+Visão operacional e tática voltada ao acompanhamento das receitas pendentes e ao suporte às atividades de previsão de curto prazo.
 
-### Abordagem Técnica
+#### Principais Métricas
 
-- Modelagem de dados para fins analíticos  
-- Uso de filtros dinâmicos e segmentações  
-- Cálculos em DAX (quando aplicável)  
-- Visualizações orientadas ao negócio  
+* Valor total pendente de faturamento.
+* Projeções de receita por período.
+* Distribuição das vendas por tipo de cliente.
+* Volume de pedidos em backlog.
+* Visibilidade do pipeline por segmento comercial.
 
-### Arquivos Disponíveis
+#### Funcionalidades
 
-O arquivo principal do Power BI (.pbix) está disponível para fins de avaliação técnica e estudo.
+* Monitoramento das oportunidades de faturamento.
+* Filtros dinâmicos por períodos e categorias de clientes.
+* Suporte à projeção de receitas futuras.
+* Identificação de gargalos no processo de faturamento.
 
-### Autora
+### 2. Análise de Vendas Faturadas
 
-Yasmin de Oliveira  
-LinkedIn: https://www.linkedin.com/in/yasmin-oliveira-89bb74136
+Visão estratégica focada na avaliação da receita reconhecida e da performance comercial.
+
+#### Principais Métricas
+
+* Receita total faturada.
+* Distribuição do faturamento por vendedor.
+* Análise da receita por região.
+* Comparativos trimestrais e anuais.
+* Desempenho comercial por segmento.
+
+#### Funcionalidades
+
+* Análise histórica das vendas.
+* Avaliação da performance das equipes comerciais.
+* Comparação de resultados entre regiões.
+* Suporte ao planejamento estratégico de vendas.
+
+## Tecnologias & Ferramentas
+
+* **Power BI:** Desenvolvimento dos dashboards e visualizações interativas.
+* **DAX:** Criação de KPIs comerciais, indicadores de receita e cálculos de inteligência temporal.
+* **Power Query (M Language):** Extração, tratamento e padronização dos dados.
+* **Modelagem Dimensional:** Estruturação do modelo analítico visando escalabilidade e desempenho.
+* **Boas Práticas de Visualização:** Construção de dashboards orientados à tomada de decisão executiva.
+
+## Desafios Técnicos Superados
+
+* **Consolidação do Pipeline Comercial:**
+
+  * Integração das perspectivas de vendas faturadas e vendas a faturar em um único modelo analítico.
+
+* **Implementação de Inteligência Temporal:**
+
+  * Desenvolvimento de cálculos dinâmicos para comparações entre períodos e análise de tendências.
+
+* **Modelagem de Indicadores Comerciais:**
+
+  * Construção de KPIs capazes de avaliar o desempenho das vendas sob diferentes dimensões do negócio.
+
+* **Escalabilidade Analítica:**
+
+  * Estruturação de um modelo otimizado para suportar análises detalhadas sem comprometer a performance do dashboard.
+
+## Principais Insights
+
+* **Maior Visibilidade da Receita:**
+
+  * Melhor compreensão das receitas realizadas e das oportunidades futuras de faturamento.
+
+* **Otimização da Performance Comercial:**
+
+  * Identificação dos vendedores e segmentos com maior contribuição para os resultados.
+
+* **Aumento da Precisão das Projeções:**
+
+  * Maior previsibilidade por meio da análise estruturada do pipeline de faturamento.
+
+* **Fortalecimento da Tomada de Decisão:**
+
+  * Disponibilização de indicadores confiáveis para apoiar estratégias comerciais e planejamento de vendas.
+
+## Estrutura do Repositório
+
+sales-dashboard/
+
+├── Sales-Dashboard.pbix
+
+├── README.md
+
+└── images/
+
+  ├── vendas-a-faturar.png
+
+  └── vendas-faturadas.png
+
+---
+
+*Este projeto integra meu portfólio em Business Intelligence e Commercial Analytics, demonstrando minha capacidade de transformar dados de vendas em insights estratégicos que impulsionam resultados e fortalecem a tomada de decisão baseada em dados.*
