@@ -2,8 +2,6 @@
 
 ## English Version
 
-# Sales Dashboard
-
 ## Overview
 
 This project presents a Business Intelligence solution developed in Power BI to monitor sales performance, analyze invoicing pipelines, and support strategic commercial decision-making. The dashboard integrates pending invoicing projections with recognized revenue indicators, providing a comprehensive view of sales operations throughout the revenue cycle.
